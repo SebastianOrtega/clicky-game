@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+}
+.header {
+
+    font-size: 2em;
+    background: rgb(195, 190, 198);
+    width: 100%;
+    /*position: fixed;*/
+    color: #000000;
+
+}
+
