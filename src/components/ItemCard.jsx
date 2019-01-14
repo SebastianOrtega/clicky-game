@@ -4,7 +4,8 @@ import "./ItemCard.css";
 const ItemCard = props => (
   <div className="card">
     <div className="img-container">
-      <a
+      <button
+        href="#"
         onClick={() => props.selectItemCard(props.breed)}
         className={
           props.curScore === 0
@@ -13,7 +14,7 @@ const ItemCard = props => (
         }
       >
         <img alt={props.breed} src={props.image} />
-      </a>
+      </button>
     </div>
   </div>
 );
